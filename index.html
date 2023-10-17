@@ -1,0 +1,152 @@
+<DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Denise Nobre"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+        <title>Denise Nobre - Portfólio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Martel&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Martel&family=Parisienne&display=swap" 
+		rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Martel&family=Merienda:wght@500&family=Parisienne&display=swap" rel="stylesheet">
+    </head>
+    <body>
+    	<header id="cabecalho">
+    		<img src="imagens/logo.png" alt="logo" id="img-logo">
+    		<nav id="nav">
+    			<span class="material-symbols-outlined" id="menu-span"> menu </span>
+    			<ul id="menu-ul">
+    				<li>
+    					<a href="#sobre" class="link-cabecalho">Sobre</a>
+    				</li>
+    				<li>
+    					<a href="#projetos" class="link-cabecalho">Projetos</a>
+    				</li>
+    				<li>
+    					<a href="#contato" class="link-cabecalho">Contato</a>
+    				</li>
+    			</ul>
+    		</nav>
+    	</header>
+
+    	<main>
+    		<h1 id="h1">Denise Nobre</h1>
+    		<section id="sobre">
+    			<div id="div-sobre">
+    				<h2 class="titulo">Sobre mim</h2>
+	    			<img src="imagens/foto.jpg" alt="minha foto" id="img-foto"><br>
+	    			<a href="https://www.linkedin.com/in/denise-nobre" target="_blank" 
+	    			class="link-contato">Linkedin</a>
+	    			<a href="https://github.com/DeniseNobre" target="_blank" class="link-contato">GitHub</a>
+					<a href="#" target="_blank" class="link-contato">WhatsApp</a>
+	    			<p id="informacoes"><br>25 anos<br>
+	    			Estudante<br>
+	    			Engenharia de Software<br>
+	    			Itaquaquecetuba - SP</p>
+	    			<br><a href="https://1drv.ms/b/s!AuP5Xd90s72igSvmxlwTok4zU7TP?e=3xz37W" 
+	    			id="link-cv" target="_blank">Visualizar CV</a>
+    			</div>
+    			<div id="habilidades">
+    				<h4>Habilidades</h4>
+    				<img src="imagens/html-5.svg" alt="" class="img-habilidades">
+    				<img src="imagens/css.svg" alt="" class="img-habilidades">
+    				<img src="imagens/javascript.svg" alt="" class="img-habilidades">
+    				<img src="imagens/python.svg" alt="" class="img-habilidades">
+    				<img src="imagens/bootstrap.svg" alt="" class="img-habilidades">
+    				<img src="imagens/git.svg" alt="" class="img-habilidades">
+    				<img src="imagens/gitHub.svg" alt="" class="img-habilidades">
+    			</div>
+    		</section>
+
+    		<section id="projetos">
+    			<h2 class="titulo">Projetos</h2>
+    			<div id="projetos-div">
+    					<article>
+    						<img src="imagens/cardapio.png" alt="imagem do projeto" class="img-projeto">
+	                        <h3 class="titulo-projetos">Cardápio</h3>
+	                        <p class="descricao">Projeto desenvolvido em html e css</p><br>
+	                        <a href="https://github.com/DeniseNobre/cardapio" class="link-projeto"
+	                        target="_blank">Ver Código</a>
+	                        <a href="https://denisenobre.github.io/cardapio/" class="link-projeto"
+	                        target="_blank">Ver Projeto</a>
+    					</article>
+
+    					<article>
+    						<img src="imagens/ods.png" alt="imagem do projeto" class="img-projeto">
+	                        <h3 class="titulo-projetos">ODS</h3>
+	                        <p class="descricao">Projeto desenvolvido em html e css</p><br>
+	                        <a href="https://github.com/DeniseNobre/site_ODS" class="link-projeto"
+	                        target="_blank">Ver Código</a>
+	                        <a href="https://denisenobre.github.io/site_ODS/" class="link-projeto"
+	                        target="_blank">Ver Projeto</a>
+    					</article>
+
+    					<article>
+    						<img src="imagens/calculadora.png" alt="imagem do projeto" class="img-projeto">
+	                        <h3 class="titulo-projetos">Calculadora de Notas</h3>
+	                        <p class="descricao">Projeto desenvolvido em python</p><br>
+	                        <a href="https://replit.com/@DeniseNobre/calculadoraDeNotas?v=1" class="link-projeto"
+	                        target="_blank">Ver Código</a>
+	                        <a href="https://replit.com/@DeniseNobre/calculadoraDeNotas?v=1" class="link-projeto"
+	                        target="_blank">Ver Projeto</a>
+    					</article>
+    			</div>
+    		</section>
+
+    		<section>
+    			<div id="contato">
+    				<h2 class="titulo">Contato</h2>
+    				<form action="https://formsubmit.co/denisenobreoficial.gmail.com" method="POST">
+	                    <div class="coluna-formulario">
+	                         <label for="nome">Nome:</label><br>
+	                         <input type="text" id="nome" name="nome" required><br>
+	                         <label for="email">Email:</label><br>
+	                         <input type="email" id="email" name="email" required><br>
+	                         <label for="telefone">Telefone:</label><br>
+	                         <input type="tel" id="telefone" name="telefone"><br>
+	                    </div>
+	                    <div class="coluna-formulario">
+	                     <label for="mensagem">Mensagem:</label><br>
+	                     <textarea id="mensagem" name="mensagem"></textarea><br>
+	                     <button type="submit" value="Enviar" id="btn-enviar">Enviar</button>
+	                    </div>
+	                    <input type="hidden" name="_next" value="https://denisenobre.github.io/DeniseNobre/thanks.html">
+                	</form>
+    			</div>
+    		</section>
+    	</main>
+
+    	<footer>
+    		<p>
+    			&copy; 2023<br>
+    			Desenvolvido por Denise Nobre<br><br>
+    			<h6>Créditos</h6>
+    				Google<br>
+    				Formsubmit<br>
+    				Canva<br>
+    				SVG repo<br>
+    				Adriana Saty<br>
+    		</p>
+    	</footer>
+
+    	<script type="text/javascript">
+		  	const span = document.getElementById("menu-span");
+	        const ul = document.getElementById("menu-ul");
+
+	        span.addEventListener("click", () => {
+	            if (ul.style.display === "none") {
+	            	span.style.display = ""
+	                ul.style.display = "flex";
+	                ul.style.flexDirection = "column";
+	                ul.style.justifyContent = "center";
+	            } else {
+	                ul.style.display = "none";
+	            }
+	        });
+    	</script>
+    </body>
+</html>
